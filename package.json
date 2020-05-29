@@ -1,6 +1,7 @@
 {
   "name": "scale-to-show",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0",
+  "description": "Make the least scale to a fixed ratio container to show all of its content.",
   "author": "zhaoyao91",
   "repository": {
     "url": "https://github.com/zhaoyao91/scale-to-show"
