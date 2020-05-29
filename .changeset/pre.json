@@ -1,0 +1,10 @@
+{
+  "mode": "pre",
+  "tag": "alpha",
+  "initialVersions": {
+    "scale-to-show": "0.0.0"
+  },
+  "changesets": [
+    "yellow-papayas-know"
+  ]
+}
