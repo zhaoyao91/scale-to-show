@@ -1,7 +1,13 @@
 {
-  "version": "0.1.0",
+  "name": "scale-to-show",
+  "version": "0.0.0",
+  "author": "zhaoyao91",
+  "repository": {
+    "url": "https://github.com/zhaoyao91/scale-to-show"
+  },
   "license": "MIT",
   "main": "dist/index.js",
+  "module": "dist/scale-to-show.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
@@ -17,7 +23,6 @@
     "lint": "tsdx lint",
     "prepare": "tsdx build"
   },
-  "peerDependencies": {},
   "husky": {
     "hooks": {
       "pre-commit": "tsdx lint"
@@ -29,9 +34,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "scale-to-show",
-  "author": "赵耀",
-  "module": "dist/scale-to-show.esm.js",
+  "peerDependencies": {},
   "devDependencies": {
     "husky": "^4.2.5",
     "tsdx": "^0.13.2",
