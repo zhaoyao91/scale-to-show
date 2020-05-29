@@ -9,6 +9,9 @@
   "main": "dist/index.js",
   "module": "dist/scale-to-show.esm.js",
   "typings": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "dist",
     "src"
