@@ -4,7 +4,11 @@ type Options = {
   height: number;
 };
 
-export function scaleToShow({ target, width, height }: Options) {
+export function scaleToShow({ target, width = 1, height = 1 }: Options) {
+  // limit width and height to sensible value
+  width = Math.max(width, 1);
+  height = Math.max(height, 1);
+
   // init container
   setSize(target, width, height);
 
